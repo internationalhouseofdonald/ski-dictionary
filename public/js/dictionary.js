@@ -21,5 +21,8 @@ function printTerms(terms) {
             type: 'DELETE',
             success: printTerms
         });
+        // returns the term (not the definition)
+        console.log($(this).text());
+
     });
 }
